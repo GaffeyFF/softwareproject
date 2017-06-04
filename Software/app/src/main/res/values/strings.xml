@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Software</string>
+
+    <string name="describe_name">建议填写你的真实姓名，让你的朋友更容易认出你。此昵称以后可以随时修改。</string>
+    <string name="describe_password">为了能够顺利登陆请设置密码为：</string>
+</resources>

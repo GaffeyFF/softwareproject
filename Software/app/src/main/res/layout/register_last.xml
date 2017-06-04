@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设置密码"
+            android:textColor="#000000"
+            android:textSize="36dp"/>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/describe_password"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/register_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请设置密码"
+                android:inputType="textPassword"
+
+                android:maxLength="12"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:background="@android:color/holo_blue_light"
+            android:layout_marginTop="16dp"
+            android:id="@+id/register_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注册新用户"
+            android:textColor="#FFFFFF"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
